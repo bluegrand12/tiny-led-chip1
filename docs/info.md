@@ -9,12 +9,18 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+This project uses basic logic gates (AND and NOT) to show how digital signals interact. It’s designed for simple demonstrations of input and output behavior, testing the workflow, and viewing the circuit in 3D.
 
 ## How to test
 
-Explain how to use your project
+OUT0 turns ON only when both IN0 and RST_N are active (AND gate).
+OUT1 turns ON only when both IN1 and IN0 are active (AND gate).
+OUT2 shows the opposite signal of IN2 (NOT gate).
+OUT3 shows the opposite signal of IN3 (NOT gate).
+OUT4–OUT7 directly follow IN4–IN7 without changes.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+Reset button
+8-position DIP switch (for inputs)
+LED indicators (for outputs)
